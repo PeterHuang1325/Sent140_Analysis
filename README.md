@@ -8,7 +8,7 @@ In this repo, we provide an experiment on Sent140 dataset with mislabeled data f
 ## Usage
 1. **Prepare data:**
      - Run `preprocess.ipynb` file and prepare the data stored as `/dataset/train.csv`, `/dataset/val.csv`, and `/dataset/test.csv`:
-     - Word cloud: <img src=/images/wordcloud_fig.png width=75% height=75%>
+     - Word cloud: <img src=/images/wordcloud_fig.png width=80% height=80%>
      
 2. **Run experiments (training):**
      - Train with BERT:
@@ -26,4 +26,4 @@ In this repo, we provide an experiment on Sent140 dataset with mislabeled data f
      - Run `python inference.py`.
 4. **Output:**
      - ROC curve, confusion matrix, prediction report csv are saved in `outputs/logs/{exp_name}/`.
-     <img src=/images/sent_results.png width=60% height=60%>
+     <img src=/images/sent_results.png width=75% height=75%>
