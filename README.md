@@ -8,7 +8,7 @@ In this repo, we provide an experiment on Sent140 dataset with mislabeled data f
 ## Usage
 1. **Prepare data:**
      - Run `preprocess.ipynb` file and prepare the data stored as `/dataset/train.csv`, `/dataset/val.csv`, and `/dataset/test.csv`:
-     - <img src=/images/wordcloud_fig.png width=100% height=100%>
+     - <img src=/images/wordcloud_fig.png width=90% height=90%>
      
 2. **Run experiments (training):**
      - Train with BERT:
