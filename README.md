@@ -3,7 +3,7 @@ In this repo, we provide an experiment on Sent140 dataset with mislabeled data f
 
 - **Sent140** binary classification problem
 - Compare **γ-logistic loss** with conventional **cross entropy**
-- BERT-base and DistilBERT-base as model
+- **BERT-base** and **DistilBERT-base** as model
 
 ## Usage
 1. **Prepare data:**
