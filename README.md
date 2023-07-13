@@ -1,4 +1,4 @@
-# Sentiment analysis 160M tweets with BERT and DistilBERT:
+# Sentiment analysis on 160M tweets with BERT and DistilBERT:
 In this repo, we provide an experiment on Sent140 dataset with mislabeled data featuring:
 
 - **Sent140** binary classification problem
