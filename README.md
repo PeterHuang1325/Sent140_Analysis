@@ -11,13 +11,13 @@ In this repo, we provide an experiment on Sent140 dataset with mislabeled data f
      - <img src=/images/wordcloud_fig.png width=90% height=90%>
      
 2. **Run experiments (training):**
-     - Train with BERT:
+     - Train with **BERT**:
        - Without mislabel data:
           - Run `python main.py --model_name='BERT'`
        - With mislabel data:
           - Run `python main.py ---model_name='BERT' -mislabel_rate=float(0-1)`
 
-     - Train with DistilBERT:
+     - Train with **DistilBERT**:
        - Without mislabel data:
           - Run `python main.py --model_name='DistilBERT'`
        - With mislabel data:
